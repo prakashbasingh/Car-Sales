@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { connect } from 'react-redux';//it is a Higher Order Component (similar to custom hooks)
 
 import Header from './components/Header';
