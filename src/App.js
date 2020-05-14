@@ -11,6 +11,7 @@ import Total from './components/Total';
 
 
 const App = state  => {
+  console.log(state, 'Is this same Data??????!!!!!1')
   // const state = {
   //   additionalPrice: 0,
   //   car: {
@@ -42,7 +43,7 @@ const App = state  => {
   );
 };
 
-//bSTP returns an object - each property on that object is added to the props of the connected component
+//mSTP returns an object - each property on that object is added to the props of the connected component
 //the connect function will call mSTP  and pass in the entire redux store as an argument!
 const mapStateToProps = state=> {
   console.log({state},' What We Have Now?????!!!!!')
